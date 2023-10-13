@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+.container{
+    overflow: hidden;
+    background: aqua;
+
+}
+
+.slider{
+    width: 300%;
+    display: flex;
+    background: gray;
+    transform: translateX(calc(-100% / 3));
+    transition: 1s;
+}
+
+.slide{
+    color: white;
+    text-align: center;
+    display: flex;
+    background: gold;
+    /* flex-grow: 1; */
+    width: 100%;
+    font-size: 30px;
+}
+
+.card{
+    background: rgb(80, 27, 21);
+    height: 500px;
+    width: calc(100% / 5 - 60px);
+    margin: 30px;
+    /* flex-grow: 1; */
+}
